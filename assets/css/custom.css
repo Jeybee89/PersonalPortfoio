@@ -1,0 +1,349 @@
+/* COLOUR REFERENCES
+
+#2980B9
+#3498DB
+#ECF0F1
+#E74C3C
+#2C3E50
+
+*/
+
+/* ==== GENERAL ==== */
+
+body {
+  margin-top: 0px;
+  font-family: 'Raleway', Helvetica, sans-serif;
+  font-size: 16px;
+  background: #ECF0F1;
+}
+
+/* === GLOBAL === */
+
+h1, h2, h3, h4, h5, h6 {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h1, h2 {
+  margin: 0 0 20px;
+}
+
+h3 {
+  margin: 20px 0;
+}
+
+h4 {
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* === BUTTONS === */
+
+button, input, .btn, a.btn {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  color: #000;
+}
+
+.btn-danger {
+  background-color: transparent;
+  border-radius: 0px;
+  border: 2px solid #000;
+}
+
+.btn:hover, .btn:focus, .btn:active, .btn:active {
+  background-color: #3498DB !important;
+  border: 2px solid #fff !important;
+}
+
+.regular {
+  font-weight: normal;
+}
+
+.btn {
+  font-weight: bold;
+}
+
+html, body {
+  height: 100%;
+}
+
+/* === NAVBAR === */
+
+
+.logo--img img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
+
+.logo--content {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.navbar-brand {
+  padding: 0px;
+  margin-left: 0px;
+  margin-bottom: 10px;
+}
+
+.logo--content h1 {
+  margin: 0px;
+  font-size: 18px;
+  line-height: 22px;
+  padding-left: 10px;
+  padding-top: 10px;
+  color: #000;
+}
+
+.logo--content p {
+  font-size: 14px;
+  line-height: 18px;
+  padding-left: 10px;
+  color: #000;
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+
+.navbar-default {
+  background-color: none;
+  padding: 5px 5px 5px 5px;
+}
+
+.navbar-default .navbar-nav>li {
+  background-color: transparent;
+  margin-right: 5px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #000;
+  font-weight: 500;
+  font-family: Raleway;
+  border-bottom: 1px solid transparent;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+  background-color: transparent;
+  color: #2980B9;
+  border-bottom: 1px solid #2980B9;
+}
+
+#hire {
+  font-weight: bold;
+  border: 2px solid #000;
+
+}
+
+#hire:hover, #hire:active, #hire:focus {
+  font-weight: bold;
+  border: 2px solid #2980B9;
+}
+
+.affix {
+  -webkit-transition: padding 0.2s ease-out;
+  -moz-transition: padding 0.2s ease-out;
+  -o-transition: padding 0.2s ease-out;
+  transition: padding 0.2s ease-out;
+}
+
+.affix-top {
+  /* navbar style at top */
+  background: transparent;
+  border-color: transparent;
+  padding: 15px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.affix-top .nav>li>a {
+  color: #000;
+}
+
+.affix-top .navbar-collapse {
+  border-color: transparent;
+  box-shadow: initial;
+}
+
+section {
+  height: calc(50% - 50px);
+  height: 90vh;
+}
+
+/* === HERO === */
+
+.hidden {
+  display: none;
+}
+
+#hero {
+  background: url(../img/me.jpg) 50% 0 repeat fixed;
+  padding-top: 140px;
+  height: 100vh;
+  min-height: 500px;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  display: table;
+}
+
+#hero span {
+  font-weight: normal;
+}
+
+#hero h1 {
+  font-weight: bold;
+}
+#hero .btn-danger {
+  margin-top: 5%;
+}
+/* === MODAL === */
+
+.modal-body {
+  padding: 0px;
+}
+
+.podal-footer {
+  padding: 10px 10px 10px 10px;
+}
+
+.form-group {
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  margin: 0px;
+}
+
+.form-control {
+  margin-right: 10px;
+}
+
+.btn-success {
+  background-color: transparent;
+  width: 100%;
+  border: 2px solid #000;
+  border-radius: 0px;
+}
+
+#myModalLabel {
+  color: white;
+  font-weight: bold;
+  margin: 10px 0px;
+}
+
+#myModalText {
+  color: white;
+}
+
+.modal-header {
+  background-color: #303030;
+}
+
+/* === ABOUT === */
+
+#about {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#about p {
+  margin-top: : 20px;
+  margin-bottom: 20px;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+
+.section-title h2 {
+    position: relative;
+    display: inline-block;
+    margin-top: -7px;
+    margin-bottom: 0;
+    padding-bottom: 18px;
+    font-size: 36px;
+    line-height: 41px;
+}
+.section-title h2:after {
+    bottom: 5px;
+    width: 200px;
+    height: 1px;
+    background-color: #303030;
+}
+
+.section-title h2:after, .section-title h2:before {
+    content: " ";
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.section-title h2:before {
+    bottom: 0;
+    width: 100px;
+    padding: 4px 0 5px;
+    border-style: solid;
+    border-width: 1px 0;
+    border-color: #737373;
+}
+.section-title h2:after, .section-title h2:before {
+    content: " ";
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+#CV-btn {
+  padding: 15px 30px;
+
+}
+
+/* ==== progressbar ==== */
+.tooltip {
+  position:relative;
+  float:right;
+}
+.tooltip > .tooltip-inner {
+  background-color: #000;
+  padding: 5px 15px;
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+}
+.popOver + .tooltip > .tooltip-arrow {
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #000;
+}
+
+.progress {
+  background-color: inherit;
+  border-radius: 0;
+  overflow: visible;
+  margin-bottom: 0px;
+  height: 5px;
+}
+.progress-bar {
+  height: 5px;
+  background: #000;
+  -webkit-transition: width 1.5s ease-in-out;
+  transition: width 1.5s ease-in-out;
+}
+.barWrapper {
+  margin-top: 20px;
+}
