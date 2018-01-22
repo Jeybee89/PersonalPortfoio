@@ -22,7 +22,6 @@ body {
 h1, h2, h3, h4, h5, h6 {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-
 }
 
 h1 {
@@ -39,7 +38,7 @@ h3 {
 
 h4 {
   font-size: 16px;
-  margin-top: 5px;
+  margin-top: 15px;
   margin-bottom: 5px;
 }
 
@@ -75,7 +74,6 @@ html, body {
 }
 
 /* === NAVBAR === */
-
 
 .logo--img img {
   width: 60px;
@@ -142,7 +140,6 @@ html, body {
 #hire {
   font-weight: bold;
   border: 2px solid #000;
-
 }
 
 #hire:hover, #hire:active, #hire:focus {
@@ -206,9 +203,11 @@ section {
 #hero h1 {
   font-weight: bold;
 }
+
 #hero .btn-danger {
   margin-top: 5%;
 }
+
 /* === MODAL === */
 
 .modal-body {
@@ -260,72 +259,76 @@ section {
 
 #about p {
   margin-top: : 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .section-title {
   text-align: center;
   margin-bottom: 20px;
-
 }
 
 .section-title h2 {
-    position: relative;
-    display: inline-block;
-    margin-top: -7px;
-    margin-bottom: 0;
-    padding-bottom: 18px;
-    font-size: 36px;
-    line-height: 41px;
+  position: relative;
+  display: inline-block;
+  margin-top: -7px;
+  margin-bottom: 0;
+  padding-bottom: 18px;
+  font-size: 36px;
+  line-height: 41px;
 }
+
 .section-title h2:after {
-    bottom: 5px;
-    width: 200px;
-    height: 1px;
-    background-color: #303030;
+  bottom: 5px;
+  width: 200px;
+  height: 1px;
+  background-color: #303030;
 }
 
 .section-title h2:after, .section-title h2:before {
-    content: " ";
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
+  content: " ";
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
 }
+
 .section-title h2:before {
-    bottom: 0;
-    width: 100px;
-    padding: 4px 0 5px;
-    border-style: solid;
-    border-width: 1px 0;
-    border-color: #737373;
+  bottom: 0;
+  width: 100px;
+  padding: 4px 0 5px;
+  border-style: solid;
+  border-width: 1px 0;
+  border-color: #737373;
 }
+
 .section-title h2:after, .section-title h2:before {
-    content: " ";
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
+  content: " ";
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
 }
 
 #CV-btn {
   padding: 15px 30px;
-
 }
 
 /* ==== progressbar ==== */
+
 .tooltip {
-  position:relative;
-  float:right;
+  position: relative;
+  float: right;
 }
-.tooltip > .tooltip-inner {
+
+.tooltip>.tooltip-inner {
   background-color: #000;
   padding: 5px 15px;
   color: white;
   font-weight: bold;
   font-size: 13px;
 }
-.popOver + .tooltip > .tooltip-arrow {
+
+.popOver+.tooltip>.tooltip-arrow {
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
   border-top: 5px solid #000;
@@ -338,12 +341,34 @@ section {
   margin-bottom: 0px;
   height: 5px;
 }
+
 .progress-bar {
   height: 5px;
   background: #000;
   -webkit-transition: width 1.5s ease-in-out;
   transition: width 1.5s ease-in-out;
 }
+
 .barWrapper {
   margin-top: 20px;
+}
+
+.about-info {
+  margin-top: 60px;
+}
+
+.about-info-wrapper {
+  padding: 30px;
+  background-color: #fff;
+  box-shadow: 0 0 2px #e9e9e9;
+}
+
+.about-info-border {
+  padding-bottom: 0px;
+  border-bottom: 1px solid #e9e9e9;
+}
+
+.reset-gutter>[class*=col-], .reset-padding {
+  padding-right: 5px;
+  padding-left: 5px;
 }
