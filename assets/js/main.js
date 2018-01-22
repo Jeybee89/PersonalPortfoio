@@ -21,6 +21,8 @@ $(function() { // Parallax backgroung effect
 
 });
 
+// TEXT FADE
+
 $('h1.hidden').fadeIn(2000).removeClass('hidden');
 $('p.hidden').fadeIn(3000).removeClass('hidden');
 
@@ -127,7 +129,8 @@ $(document).ready(function(){
        autoclose: true,
      };
      date_input.datepicker(options);
-   })
+   });
+
 /* === progressbar === */
 $(function () {
   $('[data-toggle="tooltip"]').tooltip({trigger: 'manual'}).tooltip('show');
